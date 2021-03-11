@@ -35,7 +35,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
           '--groups', '/okd39/master'
         ]
         v.name = "master-two-vagrant"
-        v.memory = 2000
+        v.memory = 1000
         v.cpus = 1
         #
          # Add first disk
@@ -70,7 +70,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             '--groups', '/okd39/master'
           ]
           v.name = "master-three-vagrant"
-          v.memory = 2000
+          v.memory = 1000
           v.cpus = 1
           #
            # Add first disk
@@ -132,8 +132,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             '--groups', '/okd39/infra'
           ]
           v.name = "infra-one-vagrant"
-          v.memory = 4000
-          v.cpus = 4
+          v.memory = 1500
+          v.cpus = 2
 
           #
            # Add first disk
@@ -196,7 +196,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             '--groups', '/okd39/app'
           ]
           v.name = "app-one-vagrant"
-          v.memory = 3000
+          v.memory = 1500
           v.cpus = 1
       #
        # Add first disk
@@ -261,7 +261,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
           '--groups', '/okd39/master'
         ]
         v.name = "master-one-vagrant"
-        v.memory = 2000
+        v.memory = 1000
         v.cpus = 1
       #
        # Add first disk
